@@ -10,15 +10,47 @@
     <!-- <script src="main.js"></script> -->
 </head>
 <body>
-    <div class="navbar-menu">
+  <div class="container is-fluid">
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="https://bulma.io">
+          <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
+        </a>
+    
+        <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+    
+      <div id="topNavBar" class="navbar-menu">
         <div class="navbar-start">
-            <p class="has-text-weight-bold">GM</p>
+          <div class="navbar-item">
+            <img src="./img/GM_svg_logo.svg" alt="logo">
+          </div>
         </div>
-        
+    
         <div class="navbar-end">
-            <p class="has-text-weight-bold">EN|PT</p>
+          <div class="navbar-item">
+            <p class="has-text-weight-bold is-size-7">EN | PT</p>
+          </div>
         </div>
-    </div>
-    <h2>Hello World!</h2>
+      </div>
+    </nav>
+      
+    <section class="hero is-medium is-light">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title">
+            GabTec
+          </h1>
+          <h2 class="subtitle">
+            IT Engineering
+          </h2>
+        </div>
+      </div>
+    </section>
+  </div>
 </body>
 </html>
